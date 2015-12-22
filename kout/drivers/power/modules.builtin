@@ -1,0 +1,5 @@
+kernel/drivers/power/smb1360-charger-fg-hmct.ko
+kernel/drivers/power/qpnp-vm-bms-hmct.ko
+kernel/drivers/power/batterydata-lib.ko
+kernel/drivers/power/batterydata-interface.ko
+kernel/drivers/power/qpnp-linear-charger-hmct.ko

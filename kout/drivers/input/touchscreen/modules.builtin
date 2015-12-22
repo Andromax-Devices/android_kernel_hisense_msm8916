@@ -1,0 +1,2 @@
+kernel/drivers/input/touchscreen/gen_vkeys.ko
+kernel/drivers/input/touchscreen/input_mt_wrapper.ko

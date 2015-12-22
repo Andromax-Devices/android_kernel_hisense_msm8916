@@ -1,0 +1,4 @@
+kernel/drivers/input/misc/hbtp_input.ko
+kernel/drivers/input/misc/kxtj9.ko
+kernel/drivers/input/misc/uinput.ko
+kernel/drivers/input/misc/akm09911.ko
