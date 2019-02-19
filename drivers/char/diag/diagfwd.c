@@ -1242,7 +1242,7 @@ static inline void diag_send_error_rsp(int index) {}
 void diag_process_hdlc(void *data, unsigned len)
 {
 	struct diag_hdlc_decode_type hdlc;
-	int ret, type = 0, crc_chk = 0
+	int ret, type = 0, crc_chk = 0;
 	int err = 0;
 
 	mutex_lock(&driver->diag_hdlc_mutex);
