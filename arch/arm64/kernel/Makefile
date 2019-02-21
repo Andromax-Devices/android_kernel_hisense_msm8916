@@ -32,6 +32,13 @@ arm64-obj-$(CONFIG_ARM64_CPU_SUSPEND)	+= sleep.o suspend.o
 arm64-obj-$(CONFIG_JUMP_LABEL)		+= jump_label.o
 arm64-obj-$(CONFIG_KGDB)		+= kgdb.o
 arm64-obj-$(CONFIG_EFI)			+= efi.o efi-stub.o efi-entry.o
+obj-$(CONFIG_ALUCARD_HOTPLUG) += alucard_hotplug.o
+obj-$(CONFIG_INTELLIPLUG_HOTPLUG) += intelli_plug.o
+
+obj-$(CONFIG_MSM_SLEEPER) += msm_sleeper.o
+obj-$(CONFIG_ZEN_DECISION_HOTPLUG) += msm_zen_decision.o
+obj-$(CONFIG_FAST_CHARGER) += fastchg.o
+
 
 obj-$(CONFIG_SWP_EMULATE)	+= swp_emulate.o
 
